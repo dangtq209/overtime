@@ -1,0 +1,166 @@
+/* Tim viec */
+.findJob .bigCol{
+	width: 363px;
+}
+.findJobTit{
+	font-size: 1rem;
+	color: #6b6c6c;
+	padding-bottom: 0.625rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #dee2e6;
+}
+.listJob .col{
+	width: 75px;
+}
+.listJob .avt{
+	height: 75px;
+	margin-right: 15px;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	overflow: hidden;
+}
+.listJob .avt img{
+	height: 100%;
+	object-fit: cover;
+}
+.listJob .detailjob{
+	width: 498px;
+	margin-right: 15px;
+}
+.detailjob .idJob{
+	font-size: 1.25rem;
+	line-height: 1.2;
+	margin-bottom: 0.25rem;
+	display: inline-block;
+}
+.listJob a:hover, .listJob a:focus{
+	color: #b9315c!important;
+}
+.detailjob .fas{
+	font-size: 12px;
+	vertical-align: 2px;
+	width: 10px;
+}
+.detailjob .txt{
+	color: #6b6c6c;
+	margin-bottom: 0.25rem;
+}
+.detailjob .readMore{
+	font-size: 12px;
+}
+.moreJob *{
+	font-size: 14px;
+}
+.pagination li{
+	display: inline-block;
+}
+.page-link{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	display: block;
+	padding: 0.5rem 0.75rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #343434;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+}
+.page-link:hover{
+	color: #1bbede;
+	background-color: #e9ecef;
+	border-color: #dee2e6;
+}
+.page-link.active, .page-link.active:hover{
+	color: #fff!important;
+	background-color: #1bbede!important;
+	border-color: #1bbede!important;
+}
+.filterJob label{
+	display: block;
+	color: #6b6c6c;
+}
+
+/* Nguoi giup viec */
+.helper .listJob .col{
+	width: 90px;
+}
+.helper .listJob .detailjob{
+	width: 483px;
+}
+.helper .avt{
+	height: 90px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.helperStatus{
+	color: #fff;
+    background-color: #1bbede;
+    padding: 0 0.6em;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+	-moz-border-radius: 10rem;
+	-o-border-radius: 10rem;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 0.5rem;
+    vertical-align: 2px;
+}
+.helperTime{
+	color: #7ac943;
+	margin-bottom: 0.5rem;
+	background-color: #f0f1f6;
+	padding: 0 0.6em;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+	-moz-border-radius: 10rem;
+	-o-border-radius: 10rem;
+    font-size: 12px;
+    display: inline-block;
+}
+/* Cap_nhat_ho_so */
+.findJobTit{
+	font-size: 1rem;
+	color: #6b6c6c;
+	padding-bottom: 0.625rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid #dee2e6;
+}
+.upPro .item{
+	width: 370px;
+}
+.upPro label{
+	display: block;
+	margin-bottom: 3px;
+}
+.upPro input{
+	outline: none;
+}
+.upPro input[type="radio"] {
+	vertical-align: -1px;
+}
+.upPro textarea{
+	min-height: 113px;
+}
+.upPro .btn-submit{
+	display: inline-block;
+	width: 100px;
+}
+.btn-reset{
+	background-color: #f44336db;
+}
+.btn-reset:hover{
+	background-color: #E91E63;
+}
+
+/* Doi_mat_khau */
+.upPass .fixW{
+	width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}

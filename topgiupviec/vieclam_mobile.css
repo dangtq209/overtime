@@ -1,0 +1,121 @@
+/* Tim viec */
+.headerFindJob{
+	padding: 0 10px;
+}
+.headerFindJob h1{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 10px;
+	float: left;
+}
+.headerFindJob i{
+	float: right;
+	color: #fff;
+	padding-top: 17px;
+	font-size: 16px;
+}
+.findJob{
+	padding: 10px;
+}
+.findJob .col{
+	width: 50px;
+}
+.findJob .img{
+	height: 50px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.findJobTit{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+.findJob .icon{
+	width: 12px;
+}
+.findJob .moreJob{
+	width: 110px;
+}
+.jobPrice{
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	border: 1px solid #d2577e;
+	color: #d2577e;
+	padding: 3px 0;
+	text-align: center;
+	margin: 5px 0;
+}
+.jobHan{
+	color: #dc3545;
+}
+.pagination li{
+	display: inline-block;
+}
+.page-link{
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	display: block;
+	padding: 0.5rem 0.70rem;
+	margin-left: -1px;
+	line-height: 1.25;
+	color: #007bff;
+	background-color: #fff;
+	border: 1px solid #dee2e6;
+}
+.page-link:hover{
+	color: #d2577e;
+	background-color: #e9ecef;
+	border-color: #dee2e6;
+}
+.page-link.active, .page-link.active:hover{
+	color: #fff;
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+/* Nguoi giup viec */
+.helper .jobTime{
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	padding: 3px 15px;
+	background-color: #f0f1f6;
+	color: #7ac943;
+}
+/* Cap_nhat_ho_so */
+.upProTit{
+	font-size: 1rem;
+	color: #6b6c6c;
+	padding-bottom: 0.625rem;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #dee2e6;
+}
+.upPro label{
+	display: block;
+	margin-bottom: 3px;
+}
+.upPro input{
+	outline: none;
+}
+.upPro input[type="radio"], .upPro input[type="checkbox"] {
+	vertical-align: -2px;
+}
+.upPro textarea{
+	height: auto;
+}
+.upPro .btn-submit{
+	display: inline-block;
+	width: 100px;
+}
+.btn-reset{
+	background-color: #f44336db;
+}

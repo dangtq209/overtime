@@ -1,0 +1,552 @@
+@font-face {
+	font-family: OpenSans-Regular;
+	src:url('../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: OpenSans-Bold;
+	src:url('../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: OpenSans-Italic;
+	src:url('../fonts/OpenSans-Italic.ttf') format('truetype');
+}
+body{
+	font-family: OpenSans-Regular, Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #343434;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+*{
+	box-sizing: border-box;
+}
+.cont{
+	width: 1150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.disFlex{
+	display: flex;
+}
+.disBlock{
+	display: block;
+}
+.flexGrow1{
+	flex-grow: 1;
+}
+.ovf{
+	overflow: hidden;
+}
+.w100{
+	width: 100%;
+}
+.rlt{
+	position: relative;
+}
+.inbl{
+	display: inline-block;
+}
+.txtCent{
+	text-align: center;
+}
+.txtRight{
+	text-align: right;
+}
+.floatR{
+	float: right;
+}
+.floatL{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+.bld, strong, b{
+	font-family: OpenSans-Bold, Arial, sans-serif;
+}
+.itl, i, em{
+	font-family: OpenSans-Italic, Arial, sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #343434;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	font-weight: normal;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+.colorBlue{
+	color: #d2577e!important;
+}
+.colorBlue:hover, .colorBlue:focus{
+	color: #b9315c !important;
+}
+.colorGreen{
+	color: #7ac943!important;
+}
+.colorGrey{
+	color: #adb5bd!important; 
+}
+.colorGray{
+	color: #6b6c6c !important;
+}
+.colorRed{
+	color: #ff2d55 !important;
+}
+.starYellow{
+	color: #ff9f02;
+}
+.starGray{
+	color: #ced4da;
+}
+.lin{
+	border-bottom: 1px solid #dee2e6;
+}
+.btn{
+	padding: 5px 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	transition: 0.2s;
+}
+.btn-submit{
+	color: #fff;
+	background-color: #d2577e;
+	display: block;
+	width: 100%;
+	cursor: pointer;
+	text-align: center;
+	padding: 0.375rem 0.75rem;
+	border: 1px solid transparent;
+	font-size: 1rem;
+	line-height: 1.5;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.btn-submit:hover{
+	background-color:#b9315c;
+}
+.form-control{
+	display: inline-block;
+	width: 100%;
+	height: calc(2.25rem + 2px);
+	padding: 0.375rem 0.75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.form-control:focus{
+	color: #495057;
+	background-color: #fff;
+	border-color: #d2577e;
+	outline: 0;
+}
+.form-control::placeholder{
+	color: #d7d7d7;
+}
+.fsBig{
+	font-size: 1.25rem;
+}
+.fsSmall{
+	font-size: 75%;
+}
+.fs-sm{
+	font-size: 0.875rem;
+}
+.mgT10{
+	margin-top: 10px;
+}
+.mgT15{
+	margin-top: 15px;
+}
+.mgT20{
+	margin-top: 20px;
+}
+.mgT30{
+	margin-top: 30px;
+}
+.mgBt5{
+	margin-bottom: 5px;
+}
+.mgBt10{
+	margin-bottom: 10px;
+}
+.mgBt15{
+	margin-bottom: 15px;
+}
+.mgBt20{
+	margin-bottom: 20px;
+}
+.mgBt30{
+	margin-bottom: 30px;
+}
+.mgR10{
+	margin-right: 10px;
+}
+.mgR20{
+	margin-right: 20px;
+}
+.mgR30{
+	margin-right: 30px;
+}
+.mgL10{
+	margin-left: 10px;
+}
+.pdT30{
+	padding-top: 30px;
+}
+.pdBt30{
+	padding-bottom: 30px;
+}
+
+/*Header*/
+.header{
+	height: 56px;
+	padding: 10px 0;
+	/* background-color: #fff; */
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05);
+	background: url('https://cdn.eva.vn/images/responsive/bg_cuoi_nam_2019.jpg') no-repeat;
+	background-size: cover;
+}
+.logo{
+	width: 80px;
+	margin-right: 40px;
+	padding-top: 2px;
+}
+.menuTop{
+	width: 550px;
+	padding-top: 5px;
+}
+.menuTopLink, .logIn a{
+	font-size: 1rem;
+	color: #fff;
+	display: inline-block;
+}
+/* .header a:hover{
+	color: #d2577e;
+} */
+.header .fas{
+	vertical-align: 2px;
+}
+.popupSp{
+	position: absolute;
+	top: 46px;
+	right: 0;
+	background-color: #fff;
+	z-index: 2;
+	border: 1px solid #dee2e6;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+#slidePopupSp{
+	display: none;
+}
+.popupSp .item{
+	padding: 5px 10px;
+}
+.popupSp *{
+	font-size: 0.875rem;
+	line-height: 25px;
+}
+.popupSp .fas{
+	vertical-align: -1px;
+}
+.logIn{
+	text-align: right;
+	flex-grow: 1;
+}
+a.logInBtn, .btnStyle1{
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	transition: 0.2s;
+	background-color: transparent;
+    font-size: 1rem;
+}
+.btnStyle1{
+    padding: 10px 13px;
+    cursor: pointer;
+}
+a.logInBtn:hover, .btnStyle1:hover{
+	background-color: #d2577e;
+	color: #fff;
+}
+.bgBlur{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #000;
+	opacity: 0.5;
+	z-index: 1;
+	display: none;
+}
+.popLogIn{
+	width: 500px;
+	background-color: #f0f1f6;
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	margin-left: -250px;
+	z-index: 2;
+	border-radius: 5px;
+	text-align: left;
+	display: none;
+}
+.popLogIn .row1{
+	padding: 20px 15px;
+}
+.popLogIn .row2{
+	padding: 0 30px 30px 30px;
+}
+.popLogIn .fas, .popLogOut .fas{
+	cursor: pointer;
+	padding-top: 7px;
+}
+.popLogOut{
+	width: 664px;
+	background-color: #f0f1f6;
+	position: fixed;
+	top: 50px;
+	left: 50%;
+	margin-left: -332px;
+	z-index: 2;
+	border-radius: 5px;
+	text-align: left;
+	display: none;
+}
+.popLogOut .row1{
+	height: 57px;
+	padding: 15px;
+}
+.popLogOut .col{
+	width: 222px;
+}
+.popLogOut .col1{
+	background-color: #f0f1f6;
+}
+.popLogOut .col1{
+	padding-top: 80px;
+}
+.popLogOut .col2{
+	flex-grow: 1;
+	padding: 30px;
+}
+.popLogOut .txtOK, .popLogOut .txtOK a{
+	font-size: 12px;
+}
+.popLogOut input.radio{
+	vertical-align: -1px;
+}
+.popLogOut input.checkbox{
+	vertical-align: -3px;
+	float: left;
+}
+.popLogOut .btn-submit{
+	background-color: #d2577e;
+}
+.popLogOut .btn-submit:hover{
+	background-color:#b9315c;
+}
+
+/*Main*/
+.secTit{
+	font-size: 1.25rem;
+}
+.smallTit{
+	font-size: 1rem;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+.innerBor{
+	padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	background-color: #ffaacc38;
+}
+.innerBg{
+	background-color: #ffaacc38;
+	padding: 1rem;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+/*Footer*/
+.footer{
+	background-color: #f5f6f7;
+}
+.footer .col{
+	width: 333px;
+}
+.footer .col2{
+	width: 167px;
+}
+.footer .col3{
+	width: 265px;
+}
+.footer .col4{
+	width: 295px;
+}
+.footerTit{
+	margin-bottom: 1rem;
+	font-size: 1rem;
+	line-height: 1.2;
+}
+.footer .txt, .footer .list a{
+	font-size: 0.875rem;
+	color: #535353;
+	margin: 0;
+}
+.footer .list a:hover, .footer .list a:focus{
+	color: #d2577e;
+}
+.footer .col3 .txt{
+	margin-bottom: 0.5rem;
+}
+.footer .fas{
+	width: 20px;
+	text-align: center;
+}
+.fa-sort-down:before {
+	content: "\f0dd";
+}
+#slidePopup_number_info{
+	display: none;
+}
+#poupchangepasswork{
+	display: none;
+}
+.buttonnf {
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 22px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.buttonnf:hover {background-color: #3e8e41}
+
+.buttonnf:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#calenderTable {
+        border: 1px solid #ddd;
+        background-color: #eee;
+        display: none;
+        position: absolute;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        border-radius: 4px;
+        font-size: 1.1em;
+        width: 300px;
+        padding: 5px;
+    }
+    /*Start duclv: 15/1/2017 Edit toi_uu_box_tim_kiem_phan_trang_box_tin_cung_muc */
+    /* calender */
+    #calender{width:200px;font-family:tahoma,ms sans serif,sans serif;font-size:7pt}
+    #calenderTable{
+        border: 1px solid #dddddd;
+        background-color:#eee;
+        display:none;
+        position:absolute;
+        z-index:9999;
+        top:0px;
+        left:0px;
+        border-radius: 4px;
+        font-size: 1.1em;
+        width: 300px;
+        padding: 5px;
+    }
+    #calenderTable TD{
+        text-align:center;
+        font-size:10pt;
+        width:30px;
+        padding: 6px;
+        font-weight: 600;
+    }
+    #calenderTableHead tr {background-color:white}
+    #calenderTableHead tr td {
+        border: 1px solid #ddd;
+    } 
+    #calenderTableDays tr td {
+        font-size: 14px;
+    }
+    #selectMonth,#selectYear{font-family:tahoma,ms sans serif,sans serif;font-size:14px;border-width:0px;border-style:none; width: 100%}
+
+    #calenderTable A{
+        color: #78b43d;
+        text-decoration: none;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #78b43d;
+        background-color: #fff;
+        display: block;
+        margin: 0 auto;
+        line-height: 20px;
+        border-radius: 50%;
+    }
+    #calenderTable A:hover{text-decoration:none; background-color: #eee}
+    .normalDay{border:1px solid #ddd;cursor:pointer; background-color: #f6f6f6;}
+    .hlDay{border:1px solid #ddd;background-color:#78b43d;color:#fff;cursor:pointer}
+    .toDay{border:1px solid #ddd;background-color:#78b43d;color:#fff;font-weight:bold;cursor:pointer}
+    .choosenDay{border:1px solid green;background-color:#A8FAA8;color:green;font-weight:bold;cursor:pointer}
+    #calenderTable #calender td {
+        text-align: right;
+    }
+.inputDate {
+    background: url(//giupviectop1.com/images/sprites092018.png) no-repeat -47px -3324px;
+    border: 1px solid #eee;
+    color: #787878;
+    padding-top: 1px;
+    margin-left: 10px;
+    outline: none;
+    padding: 3px;
+    height: 38px;
+    display: inline-block;
+    padding-left: 20px;
+    cursor: pointer;
+    font-size: large;
+}

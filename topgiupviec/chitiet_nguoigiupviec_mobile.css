@@ -1,0 +1,71 @@
+/* Chi tiet viec lam */
+.headerDetailJob{
+	padding: 0 10px;
+}
+.backLink{
+	display: inline-block;
+	color: #fff;
+	font-size: 16px;
+	margin-right: 10px;
+	float: left;
+}
+.detailJob p{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.userPost{
+	padding: 10px 20px;
+}
+.userPost .col, .listUt .col{
+	width: 50px
+}
+.userPost .img, .listUt .img{
+	height: 50px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	overflow: hidden;
+}
+.detailJob .icon{
+	width: 20px;
+}
+.txtNote{
+	background-color: #d2577e;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	padding: 3px 15px;
+	line-height: 30px;
+}
+.listUt .col{
+	width: 67px;
+}
+.listUt .img{
+	height: 67px;
+}
+.listStar{
+	word-spacing: -4px;
+}
+.listStar i{
+	word-spacing: 0;
+}
+
+/* Chi tiet nguoi giup viec */
+.detailHelper .userPost .col{
+	width: 67px;
+}
+.detailHelper .userPost .img{
+	height: 67px;
+}
+.helperTime{
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	-o-border-radius: 15px;
+	padding: 3px 15px;
+	background-color: #f0f1f6;
+	color: #d2577e;
+	display: inline-block;
+}

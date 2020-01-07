@@ -1,0 +1,134 @@
+/*Banner*/
+.banner{
+	background: url(../images/topgiupviec-giup-viec-theo-gio.jpg) no-repeat;
+	background-size: 100% 100%;
+	height: 505px;
+}
+.banner .inner{
+	position: absolute;
+	width: 500px;
+	height: 200px;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -250px;
+	z-index: 1;
+	text-align: center;
+	padding: 15px 20px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.bnTit{
+	font-size: 1.5rem;
+	color: #d2577e;
+	margin-bottom: 15px;
+	display: none;
+}
+.banner .lin{
+	display: none;
+}
+.banner .btn, .tGia .btn{
+	color: #fff;
+	background-color: #d2577e;
+	border-color: #d2577e;
+	padding: 7px 10px;
+	display: inline-block;
+	margin-top: 65px;
+}
+.banner .btn:hover, .tGia .btn:hover{
+	background-color: #b9315c;
+    border-color: #b9315c;
+}
+
+/*Gioi thieu*/
+.gThieu .colLeft{
+	width: 560px;
+}
+.gThieuTit{
+	padding-bottom: 5px;
+	border-bottom: 2px solid #d2577e;
+	display: inline-block;
+}
+
+/*Tai sao nen dung*/
+.why, .work, .tGia{
+	background-color: #ffaacc40;
+	text-align: center;
+}
+.why .disFlex, .media .disFlex{
+	justify-content: center;
+}
+.why .item{
+	background-color: #fff;
+	padding: 1.5rem;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	width: 100%;
+}
+.why .number{
+	font-size: 2.5rem;
+	color: #d2577e;
+	line-height: 1.2;
+	margin-bottom: 0.5rem;
+}
+.why .text1{
+	color: #d2577e;
+	font-size: 1.25rem;
+	margin-bottom: 1rem;
+}
+.why .text2{
+	font-size: 1.20rem;
+	line-height: 1.2;
+	margin-bottom: 1.5rem;
+}
+
+/*Hoat dong*/
+.work .item{
+	background-color: #fff;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	padding: 1.5rem;
+	width: 100%;
+}
+.work .item .secTit{
+	margin-bottom: 1.5rem !important;
+	line-height: 1.2;
+}
+.work p{
+	font-size: 0.875rem;
+	color: #6b6c6c;
+	margin: 0;
+}
+
+/*Cau hoi thuong gap*/
+.question .item{
+	padding: 0.875rem;
+	background-color: #ffaacc40;
+	border-radius: 2.5px;
+	-webkit-border-radius: 2.5px;
+	-webkit-border-radius: 2.5px;
+	-webkit-border-radius: 2.5px;
+}
+.question .disFlex>div{
+	width: 50%;
+}
+.quesTit{
+	cursor: pointer;
+	font-style: italic;
+}
+.quesTxt{
+	font-style: italic;
+	color: #535353;
+	display: none;
+}
+
+/*Tham gia ngay*/
+.tGia .btn{
+	margin-top: 0;
+}

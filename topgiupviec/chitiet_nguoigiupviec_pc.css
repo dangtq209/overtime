@@ -1,0 +1,178 @@
+/* Chi tiet viec lam */
+.infoJob .bigCol, .infoHelper .bigCol{
+	width: 363px;
+}
+.fs1rem{
+	font-size: 1rem;
+}
+.jcBetween{
+	justify-content: space-between;
+}
+.txtIdJob{
+	margin-right: 1rem;
+	font-size: 0.875rem;
+	color: #6b6c6c;
+}
+.infoJobInner{
+	padding: 1rem;
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+}
+.infoJobInner .icon{
+	width: 25px;
+	text-align: center;
+}
+.txtNote{
+	background-color: #1bbede;
+	color: #fff;
+	padding: 0.25em 0.5rem;
+	line-height: 1;
+	text-align: center;
+	display: inline-block;
+	border-radius: 10rem;
+	-webkit-border-radius: 10rem;
+	-moz-border-radius: 10rem;
+	-o-border-radius: 10rem;
+	margin: 0 2px;
+}
+.ungTuyen{
+	background-color: #f0f1f6;
+	padding: 1rem;
+	text-align: center;
+	height: 102px;
+}
+.listUt .col{
+	width: 90px;
+}
+.listUt .avt{
+	height: 90px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.ofc{
+	height: 100%;
+	object-fit: cover;
+}
+.listUtTit{
+	font-size: 1.25rem;
+	line-height: 1.2;
+}
+.userPostTit{
+	color: #1bbede;
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+	border-top: 3px solid #1bbede;
+	border-radius: 0.25rem 0.25rem 0 0;
+	-webkit-border-radius: 0.25rem 0.25rem 0 0;
+	-moz-border-radius: 0.25rem 0.25rem 0 0;
+	-o-border-radius: 0.25rem 0.25rem 0 0;
+	padding: 0.5rem 1rem;
+	display: inline-block;
+	background-color: #fff;
+	margin-bottom: -1px;
+}
+.userPostInner{
+	border: 1px solid #dee2e6;
+	padding: 1rem;
+	border-radius: 0 0 0.25rem 0.25rem;
+	-webkit-border-radius: 0 0 0.25rem 0.25rem;
+	-moz-border-radius: 0 0 0.25rem 0.25rem;
+	-o-border-radius: 0 0 0.25rem 0.25rem;	
+}
+.userPost .col{
+	width: 75px;
+}
+.userPost .avt{
+	height: 112px;
+	border-radius: 0.25rem;
+	-webkit-border-radius: 0.25rem;
+	-moz-border-radius: 0.25rem;
+	-o-border-radius: 0.25rem;
+	overflow: hidden;	
+}
+.userPostName{
+	line-height: 1.2;
+	font-size: 1.25rem;
+}
+.userPostName:hover{
+	color: #1bbede;
+}
+.userPost .icon{
+	width: 25px;
+}
+
+/* Chi tiet nguoi giup viec */
+.infoHelper .listHelper .col{
+	width: 150px;
+}
+.infoHelper .avt{
+	height: 150px;
+	border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-right: 15px;
+    overflow: hidden;
+}
+.infoHelper .detailHelper, .infoHelper .moreHelper{
+	padding-top: 30px;
+}
+.helperTime{
+	color: #d2577e;
+    margin-bottom: 0.5rem;
+    background-color: #f0f1f6;
+    padding: 0 0.6em;
+    border-radius: 10rem;
+    -webkit-border-radius: 10rem;
+    -moz-border-radius: 10rem;
+    -o-border-radius: 10rem;
+    font-size: 12px;
+    display: inline-block;
+}
+.infoHelper .listHelper p{
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+.infoHelperTit{
+	padding-bottom: 0.625rem;
+	border-bottom: 1px solid #dee2e6;
+}
+.infoHelperTit .icon{
+	font-size: 13px;
+    vertical-align: 1px;
+    margin-right: 5px;
+}
+.innerBor .icon{
+	width: 20px;
+}
+.innerBor p{
+	margin-bottom: 15px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
